@@ -13,22 +13,24 @@
       font-family: Arial, sans-serif;
       overflow: hidden;
     }
-
-    .card {
-      background: white;
-      padding: 30px;
-      border-radius: 15px;
-      text-align: center;
-      box-shadow: 0 10px 20px rgba(0,0,0,0.15);
-    }
-
-    button {
+    
+.card {
+  background: white;
+  padding: 45px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+  transform: scale(1.15);
+}
+      
+button {
       padding: 12px 22px;
       border: none;
       border-radius: 10px;
       font-size: 16px;
       cursor: pointer;
       margin: 10px;
+    
     }
 
     #yes {
@@ -47,7 +49,7 @@
 
   <div class="card">
     <h2>Hey Cutie 🥰</h2>
-    <p>Will you be my Valentine? 💕</p>
+ <p style="font-size:20px;">Will you be my Valentine? 💕</p>
     <button id="yes" onclick="yesClicked()">Yes 💖</button>
     <button id="no"
       onmouseover="moveNo()"
