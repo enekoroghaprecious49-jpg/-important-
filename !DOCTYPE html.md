@@ -1,15 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>  
-<div class="card">
-  <h2>Hey Cutie 🥰</h2>
-  <p>Will you be my Valentine? 💕</p>
-  }
-  
-</script>
-
-</body>
-</html>
 <script>
   const noTexts = [
     "No 😏",
